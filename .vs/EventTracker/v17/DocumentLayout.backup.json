@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Monster\\Desktop\\BE124\\G\u00D6REV_9\\EventTracker\\EventTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{476228AD-A749-481C-9773-715FED9EB249}|EventTracker\\EventTracker.csproj|c:\\users\\monster\\desktop\\be124\\g\u00F6rev_9\\eventtracker\\eventtracker\\eventtracker\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476228AD-A749-481C-9773-715FED9EB249}|EventTracker\\EventTracker.csproj|solutionrelative:eventtracker\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476228AD-A749-481C-9773-715FED9EB249}|EventTracker\\EventTracker.csproj|c:\\users\\monster\\desktop\\be124\\g\u00F6rev_9\\eventtracker\\eventtracker\\eventtracker\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{476228AD-A749-481C-9773-715FED9EB249}|EventTracker\\EventTracker.csproj|solutionrelative:eventtracker\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{476228AD-A749-481C-9773-715FED9EB249}|EventTracker\\EventTracker.csproj|c:\\users\\monster\\desktop\\be124\\g\u00F6rev_9\\eventtracker\\eventtracker\\eventtracker\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{476228AD-A749-481C-9773-715FED9EB249}|EventTracker\\EventTracker.csproj|solutionrelative:eventtracker\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BE124\\G\u00D6REV_9\\EventTracker\\EventTracker\\EventTracker\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "EventTracker\\Views\\Events\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\BE124\\G\u00D6REV_9\\EventTracker\\EventTracker\\EventTracker\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "EventTracker\\Views\\Events\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T20:25:21.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventModel.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BE124\\G\u00D6REV_9\\EventTracker\\EventTracker\\EventTracker\\Models\\EventModel.cs",
+              "RelativeDocumentMoniker": "EventTracker\\Models\\EventModel.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\BE124\\G\u00D6REV_9\\EventTracker\\EventTracker\\EventTracker\\Models\\EventModel.cs",
+              "RelativeToolTip": "EventTracker\\Models\\EventModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:25:08.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Desktop\\BE124\\G\u00D6REV_9\\EventTracker\\EventTracker\\EventTracker\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "EventTracker\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Monster\\Desktop\\BE124\\G\u00D6REV_9\\EventTracker\\EventTracker\\EventTracker\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "EventTracker\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T20:24:20.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

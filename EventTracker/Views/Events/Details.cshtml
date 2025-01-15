@@ -1,0 +1,25 @@
+﻿@model EventModel
+<style>       
+    .center-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+</style>
+<div class="container-fluid full-height center-card">
+    <div class="card" id="detailCard" style="width: 18rem;">
+        <img src="/images/@ViewBag.EventItem.Image" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">@ViewBag.EventItem.Title</h5>
+            <p class="card-text">Event Details: @ViewBag.EventItem.Description</p>
+            <p class="card-text">Event Date: @ViewBag.EventItem.Date</p>
+            <a href="@Url.Action("List", "Events")" class="btn btn-info">Go Back</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

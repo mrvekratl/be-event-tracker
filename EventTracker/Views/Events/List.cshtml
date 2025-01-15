@@ -1,0 +1,34 @@
+﻿@model EventModel
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Detail</th>
+            <th scope="col">Delete</th>
+        </tr>       
+    </thead>
+    <tbody>
+            @foreach (var eventItem in ViewBag.eventList)
+            {
+            <tr>
+                <th>@eventItem.Id</th>
+                <th>@eventItem.Title</th>
+                <th>
+                    <a href="@Url.Action("Details", "Events", new { id = eventItem.Id })" class="btn btn-info">Show Details</a>
+                </th>
+                <th>
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@eventItem.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>                                                  
+                </th>
+            </tr>
+            }
+    </tbody>
+    
+</table>
+<div>
+    <a href="/Events/Create" class="btn btn-outline-success">Add New Event</a>
+    <a href="/Events/Edit" class="btn btn-outline-success">Edit Event</a>
+</div>

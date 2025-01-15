@@ -1,0 +1,33 @@
+﻿@model EventModel
+<h2>Edit Event</h2>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label asp-for="Id">Enter the ID of the evet you want to update</label>
+        <input asp-for="Id" class="form-control" />
+        <span asp-validation-for="Id" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Title">New Title</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description">New Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Date">New Date</label>
+        <input asp-for="Date" type="date" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Image">New Image</label>
+        <input asp-for="Image" type="text" class="form-control" />
+        <span asp-validation-for="Image" class="text-danger"></span>
+    </div>
+    <br />
+    <br />
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
